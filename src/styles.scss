@@ -1,1 +1,86 @@
-/* You can add global styles to this file, and also import other style files */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f5f5f5; /* Fondo gris claro como en la imagen */
+  padding: 1rem;
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-family: Arial, sans-serif;
+    font-weight: normal; /* Texto más delgado como en la imagen */
+    color: #333;
+  }
+  
+  .input-group {
+    margin-bottom: 1.5rem;
+    width: 100%;
+    max-width: 300px; /* Ancho fijo como en la imagen */
+    
+    input {
+      width: 100%;
+      padding: 0.75rem;
+      border: 1px solid #ddd; /* Borde sutil */
+      border-radius: 4px; /* Bordes rectos, no redondeados */
+      background-color: white;
+      font-size: 1rem;
+      color: #333;
+      outline: none;
+      
+      &::placeholder {
+        color: #888;
+        font-size: 0.9rem;
+      }
+      
+      &:focus {
+        border-color: #f06292; /* Color rosa al enfocar */
+      }
+    }
+  }
+  
+  .forgot-password {
+    margin-bottom: 1.5rem;
+    color: #666;
+    text-decoration: none;
+    font-size: 0.9rem;
+    
+    &:hover {
+      color: #f06292;
+    }
+  }
+  
+  .login-button {
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 4px; /* Bordes rectos */
+    background-color: #000; /* Botón negro como en la imagen */
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+    max-width: 300px;
+    transition: background-color 0.3s ease;
+    
+    &:hover {
+      background-color: #333; /* Gris oscuro al hover */
+    }
+  }
+}
+
+/* Media queries para responsive */
+@media (min-width: 576px) {
+  .login-container {
+    h1 {
+      font-size: 3rem;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .login-container {
+    padding: 2rem;
+  }
+}

@@ -1,0 +1,131 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  background-color: #3498db; /* Fondo rosa claro */
+  padding: 1.5rem; /* Ajustado el padding */
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    margin-bottom: 1rem; /* Ajustado el margen */
+  }
+
+  .back-button {
+    margin-right: auto;
+    img {
+      width: 22px; /* Ajustado el tamaño */
+      height: auto;
+    }
+  }
+
+  .style-title {
+    font-size: 2rem; /* Ajustado el tamaño */
+    color: #fff; /* Título rosa */
+    margin: 0;
+  }
+
+  .upload-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1rem; /* Ajustado el padding */
+    border: none;
+    border-radius: 20px; /* Ajustado el radio */
+    background-color: #226af0;
+    color: #fcfcfc;
+    font-size: 0.8rem; /* Ajustado el tamaño */
+    cursor: pointer;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1); /* Ajustado la sombra */
+    transition: background-color 0.3s ease;
+    margin-bottom: 1.2rem; /* Ajustado el margen */
+
+    img {
+      width: 16px; /* Ajustado el tamaño */
+      height: auto;
+      margin-right: 0.4rem;
+    }
+
+    &:hover {
+      background-color: #eee;
+    }
+  }
+
+  .categories {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.30rem; /* Ajustado el gap */
+    margin-bottom: 1.2rem; /* Ajustado el margen */
+    width: 100%;
+    max-width: 500px; /* Ajustado el ancho máximo */
+  }
+
+  .category-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.6rem; /* Ajustado el padding */
+    border: none;
+    border-radius: 12px; /* Ajustado el radio */
+    color: #fff;
+    font-size: 0.7rem; /* Ajustado el tamaño */
+    cursor: pointer;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1); /* Ajustado la sombra */
+    transition: opacity 0.3s ease;
+
+    img {
+      width: 26px; /* Ajustado el tamaño */
+      height: auto;
+      margin-bottom: 0.3rem;
+    }
+
+    &.party {
+      background-color: #226af0; /* Rosa para Fiesta */
+    }
+
+    &.casual {
+      background-color: #226af0; /* Lila para Casual */
+    }
+
+    &.work {
+      background-color: #226af0; /* Lila más oscuro para Trabajo */
+    }
+
+    &.sport {
+      background-color: #226af0; /* Lila aún más oscuro para Deporte */
+    }
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  .profile {
+    img {
+      width: 130px; /* Ajustado el tamaño */
+      height: 130px; /* Ajustado el tamaño */
+      border-radius: 50%;
+      object-fit: cover;
+    }
+  }
+}
+.style-title {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    display: flex; 
+  }
+
+  .pink {
+    color: #faf7f8; 
+  }
+
+  .blue {
+    color: #faf7f8; 
+  }

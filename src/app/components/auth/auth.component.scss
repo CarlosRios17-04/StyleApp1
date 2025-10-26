@@ -1,0 +1,172 @@
+.login-container {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ height: 100vh;
+ background-color: #f9e7e7; /* Fondo rosa claro */
+ padding: 1rem; /* Añadido para espaciado en pantallas pequeñas */
+ 
+ .input-group {.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f5f5f5; /* Fondo gris claro como en la imagen */
+  padding: 1rem;
+ 
+
+  
+  .input-group {
+    margin-bottom: 1.5rem;
+    width: 100%;
+    max-width: 300px; /* Ancho fijo como en la imagen */
+    
+    input {
+      width: 100%;
+      padding: 0.75rem;
+      border: 1px solid #ddd; /* Borde sutil */
+      border-radius: 4px; /* Bordes rectos, no redondeados */
+      background-color: white;
+      font-size: 1rem;
+      color: #333;
+      outline: none;
+      
+      &::placeholder {
+        color: #888;
+        font-size: 0.9rem;
+      }
+      
+      &:focus {
+        border-color: #f06292; /* Color rosa al enfocar */
+      }
+    }
+  }
+  
+  .forgot-password {
+    margin-bottom: 1.5rem;
+    color: #666;
+    text-decoration: none;
+    font-size: 0.9rem;
+    
+    &:hover {
+      color: #f06292;
+    }
+  }
+  
+  .login-button {
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 4px; /* Bordes rectos */
+    background-color: #000; /* Botón negro como en la imagen */
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+    max-width: 300px;
+    transition: background-color 0.3s ease;
+    
+    &:hover {
+      background-color: #333; /* Gris oscuro al hover */
+    }
+  }
+}
+
+/* Media queries para responsive */
+@media (min-width: 576px) {
+  .login-container {
+    h1 {
+      font-size: 3rem;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .login-container {
+    padding: 2rem;
+  }
+}
+   margin-bottom: 1rem;
+   width: 90%; /* Aumentado para pantallas pequeñas */
+   input {
+     width: 100%;
+     padding: 0.75rem;
+     border: none;
+     border-radius: 20px;
+     background-color: white;
+     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+     font-size: 1rem;
+     color: #333;
+     outline: none;
+&::placeholder {
+       color: #aaa;
+     }
+   }
+ }
+ .forgot-password {
+   margin-bottom: 1rem;
+   color: #888;
+   text-decoration: none;
+   font-size: 0.9rem;
+ }
+ .login-button {
+   padding: 0.75rem 2rem;
+   border: none;
+   border-radius: 20px;
+   background-color: #f06292; /* Botón rosa */
+   color: white;
+   font-size: 1.1rem;
+   cursor: pointer;
+   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+   transition: background-color 0.3s ease;
+&:hover {
+     background-color: #e0407a;
+   }
+ }
+ /* Media queries para pantallas más grandes */
+ @media (min-width: 576px) {
+   h1 {
+     font-size: 3rem;
+     margin-bottom: 2rem;
+   }
+   .input-group {
+     width: 80%;
+   }
+   .forgot-password {
+     margin-bottom: 1.5rem;
+   }
+ }
+ @media (min-width: 768px) {
+   .login-container {
+     padding: 2rem;
+   }
+   .input-group {
+     width: 70%;
+   }
+ }
+ @media (min-width: 992px) {
+   .login-container {
+     padding: 3rem;
+   }
+   .input-group {
+     width: 60%;
+   }
+ }
+}
+ .style-title {
+    font-size: 4rem;
+    color: #f06292; /* Título rosa */
+    margin-bottom: 2rem;
+    
+  }
+  
+  .pink {
+    color: #f06292; 
+  }
+
+  .blue {
+    color: #3498db; 
+  }
+
+  
