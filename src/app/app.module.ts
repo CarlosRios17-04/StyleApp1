@@ -14,6 +14,10 @@ import { FiestaHombreComponent } from './components/fiesta-hombre/fiesta-hombre.
 import { CasualHombreComponent } from './components/casual-hombre/casual-hombre.component';
 import { TrabajoHombreComponent } from './components/trabajo-hombre/trabajo-hombre.component';
 import { DeporteHombreComponent } from './components/deporte-hombre/deporte-hombre.component';
+import { FiestaMujerComponent } from './components/fiesta-mujer/fiesta-mujer.component';
+import { CasualMujerComponent } from './components/casual-mujer/casual-mujer.component';
+import { TrabajoMujerComponent } from './components/trabajo-mujer/trabajo-mujer.component';
+import { DeporteMujerComponent } from './components/deporte-mujer/deporte-mujer.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +31,11 @@ import { DeporteHombreComponent } from './components/deporte-hombre/deporte-homb
     FiestaHombreComponent,
     CasualHombreComponent,
     TrabajoHombreComponent,
-    DeporteHombreComponent
+    DeporteHombreComponent,
+    FiestaMujerComponent,
+    CasualMujerComponent,
+    TrabajoMujerComponent,
+    DeporteMujerComponent
   ],
   imports: [
     BrowserModule,

@@ -1,8 +1,9 @@
 <div class="main-container">
   <div class="header">
-    <a href="#" class="back-button">
-      <img src="assets/atras.png" alt="Back Arrow">
+    <a  class="back-button" (click)="navigateToGeneros()">
+      <img src="assets/atras.png" >
     </a>
+
   </div>
 
   <div>
@@ -19,19 +20,19 @@
   </button>
 
   <div class="categories">
-    <button class="category-button party">
+    <button class="category-button party" (click)="navigateToFiestaMujer()">
       <img src="assets/party.png" alt="Party Icon">
       Fiesta
     </button>
-    <button class="category-button casual" (click)="navigateToCuerpo()">
+    <button class="category-button casual" (click)="navigateToCasualMujer()">
       <img src="assets/vestido.png" alt="Casual Icon">
       Casual
     </button>
-    <button class="category-button work">
+    <button class="category-button work" (click)="navigateToTrabajoMujer()">
       <img src="assets/work.png" alt="Work Icon">
       Trabajo
     </button>
-    <button class="category-button sport">
+    <button class="category-button sport" (click)="navigateToDeporteMujer()">
       <img src="assets/deporte.png" alt="Sport Icon">
       Deporte
     </button>

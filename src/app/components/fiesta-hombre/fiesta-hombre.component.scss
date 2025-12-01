@@ -15,9 +15,16 @@
   margin-top: 50px;
   font-size: 42px;
   font-weight: bold;
-  color: #4A90E2;
+  color: #ab47bc;
   text-shadow: 0 0 8px #FFFFFF;
 }
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    margin-bottom: 1rem; /* Ajustado el margen */
+  }
 
 .img-fiesta {
   width: 250px;

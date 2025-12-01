@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-casual-hombre',
@@ -6,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./casual-hombre.component.scss']
 })
 export class CasualHombreComponent {
+  constructor(private router: Router){}
+
+  navigateToPaginaHombre(){
+    this.router.navigate(['/pagina-hombre'])
+  }
+
 
 }

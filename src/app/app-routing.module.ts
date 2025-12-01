@@ -10,6 +10,10 @@ import { FiestaHombreComponent } from './components/fiesta-hombre/fiesta-hombre.
 import { CasualHombreComponent } from './components/casual-hombre/casual-hombre.component';
 import { TrabajoHombreComponent } from './components/trabajo-hombre/trabajo-hombre.component';
 import { DeporteHombreComponent } from './components/deporte-hombre/deporte-hombre.component';
+import { CasualMujerComponent } from './components/casual-mujer/casual-mujer.component';
+import { DeporteMujerComponent } from './components/deporte-mujer/deporte-mujer.component';
+import { FiestaMujerComponent } from './components/fiesta-mujer/fiesta-mujer.component';
+import { TrabajoMujerComponent } from './components/trabajo-mujer/trabajo-mujer.component';
 
 const routes: Routes = [
   {path: '', component: AuthComponent},
@@ -21,7 +25,11 @@ const routes: Routes = [
   {path: 'fiesta-hombre', component: FiestaHombreComponent},
   {path: 'casual-hombre', component: CasualHombreComponent},
   {path: 'trabajo-hombre', component: TrabajoHombreComponent},
-  {path: 'deporte-hombre', component: DeporteHombreComponent}
+  {path: 'deporte-hombre', component: DeporteHombreComponent},
+  {path: 'casual-mujer', component: CasualMujerComponent},
+  {path: 'deporte-mujer', component: DeporteMujerComponent},
+  {path: 'fiesta-mujer', component: FiestaMujerComponent},
+  {path: 'trabajo-mujer', component: TrabajoMujerComponent}
 ];
 
 @NgModule({

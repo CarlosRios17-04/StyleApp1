@@ -27,4 +27,8 @@ export class PaginaHombreComponent {
    navigateToDeporteHombre(){
     this.router.navigate(['deporte-hombre'])
   }
+
+   navigateToGeneros(){
+    this.router.navigate(['/generos'])
+  }
 }
